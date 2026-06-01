@@ -241,12 +241,26 @@ dd {
   border-radius: 8px;
 }
 
+.qr-filled {
+  min-height: 172px;
+  padding: 10px;
+  background: var(--white);
+  border-style: solid;
+}
+
 .qr-placeholder span {
   width: 42px;
   height: 42px;
   margin-bottom: 8px;
   border: 8px solid rgba(120, 197, 230, 0.45);
   border-radius: 50%;
+}
+
+.qr-image {
+  width: min(100%, 156px);
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated;
 }
 
 .top-cards {
