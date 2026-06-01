@@ -135,7 +135,7 @@ h1 span {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
+  grid-template-columns: 230px minmax(0, 1fr);
   gap: 18px;
   align-items: start;
   padding-top: 24px;
@@ -170,7 +170,7 @@ h1 span {
 .photo-card {
   overflow: hidden;
   width: 100%;
-  height: 198px;
+  height: 210px;
   background: var(--panel);
 }
 
@@ -183,7 +183,7 @@ h1 span {
 
 .profile-card {
   min-height: 258px;
-  padding: 18px 14px;
+  padding: 18px 18px;
   background: var(--profile);
 }
 
@@ -194,8 +194,8 @@ h1 span {
 
 .profile-list div {
   display: grid;
-  grid-template-columns: 54px minmax(0, 1fr);
-  gap: 8px;
+  grid-template-columns: 66px minmax(0, 1fr);
+  gap: 10px;
   align-items: start;
   padding: 0;
   border: 0;
@@ -203,15 +203,16 @@ h1 span {
 
 dt {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   word-break: keep-all;
 }
 
 dd {
   color: var(--ink);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 800;
+  line-height: 1.25;
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
@@ -350,7 +351,7 @@ li::before {
   }
 
   .portfolio-grid {
-    grid-template-columns: 170px minmax(0, 1fr);
+    grid-template-columns: 205px minmax(0, 1fr);
     gap: 14px;
   }
 
@@ -368,11 +369,17 @@ li::before {
   }
 
   .photo-card {
-    height: 174px;
+    height: 190px;
   }
 
   .profile-card {
     min-height: 236px;
+    padding: 16px 16px;
+  }
+
+  .profile-list div {
+    grid-template-columns: 62px minmax(0, 1fr);
+    gap: 9px;
   }
 
   .info-card {
@@ -386,11 +393,11 @@ li::before {
 
   li,
   dd {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   dt {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
